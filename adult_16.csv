@@ -1,0 +1,362 @@
+Area,male,female
+ENGLAND,0,0
+NORTH EAST,31,91
+County Durham,36,106
+Darlington,12,43
+Gateshead,0,0
+Hartlepool,50,69
+Middlesbrough,32,60
+Newcastle upon Tyne,24,43
+North Tyneside,11,42
+Northumberland,0,0
+Redcar and Cleveland,17,95
+South Tyneside,43,161
+Stockton-on-Tees,27,84
+Sunderland,62,193
+NORTH WEST ,8,16
+Blackburn with Darwen,10,19
+Blackpool,7,13
+Bolton,12,33
+Bury,7,16
+Cheshire East,0,0
+Cheshire West and Chester,5,12
+Cumbria,6,17
+Allerdale,6,17
+Barrow-in-Furness,6,17
+Carlisle,6,17
+Copeland,6,17
+Eden,6,17
+South Lakeland,6,17
+Halton,0,0
+Knowsley,22,36
+Liverpool,7,24
+Lancashire,6,14
+Burnley,6,14
+Chorley,6,14
+Fylde,6,14
+Hyndburn,6,14
+Lancaster,6,14
+Pendle,6,14
+Preston,6,14
+Ribble Valley,6,14
+Rossendale,6,14
+South Ribble,6,14
+West Lancashire,6,14
+Wyre,6,14
+Manchester,18,23
+Oldham,6,13
+Rochdale,10,11
+Salford,7,23
+Sefton,10,23
+St. Helens,10,18
+Stockport,5,13
+Tameside,7,7
+Trafford,9,10
+Warrington,0,0
+Wigan,7,7
+Wirral,4,8
+YORKSHIRE AND THE HUMBER ,9,22
+Barnsley,17,16
+Bradford,5,22
+Calderdale,12,37
+Doncaster,24,56
+East Riding of Yorkshire,5,14
+"Kingston upon Hull, City of",16,26
+Kirklees,6,26
+Leeds,5,13
+North East Lincolnshire,8,27
+North Lincolnshire,0,0
+North Yorkshire,11,22
+Craven,11,22
+Hambleton,11,22
+Harrogate,11,22
+Richmondshire,11,22
+Ryedale,11,22
+Scarborough,11,22
+Selby,11,22
+Rotherham,0,11
+Sheffield,12,28
+Wakefield,6,21
+York,0,0
+EAST MIDLANDS,6,15
+Derby,0,0
+Derbyshire,5,18
+Amber Valley,5,18
+Bolsover,5,18
+Chesterfield,5,18
+Derbyshire Dales,5,18
+Erewash,5,18
+High Peak,5,18
+North East Derbyshire,5,18
+South Derbyshire,5,18
+Leicester,0,0
+Leicestershire,3,9
+Blaby,3,9
+Charnwood,3,9
+Harborough,3,9
+Hinckley and Bosworth,3,9
+Melton,3,9
+North West Leicestershire,3,9
+Oadby and Wigston,3,9
+Lincolnshire,6,18
+Boston,6,18
+East Lindsey,6,18
+Lincoln,6,18
+North Kesteven,6,18
+South Holland,6,18
+South Kesteven,6,18
+West Lindsey,6,18
+Northamptonshire,8,22
+Corby,8,22
+Daventry,8,22
+East Northamptonshire,8,22
+Kettering,8,22
+Northampton,8,22
+South Northamptonshire,8,22
+Wellingborough,8,22
+Nottingham,6,8
+Nottinghamshire,7,16
+Ashfield,7,16
+Bassetlaw,7,16
+Broxtowe,7,16
+Gedling,7,16
+Mansfield,7,16
+Newark and Sherwood,7,16
+Rushcliffe,7,16
+Rutland,7,16
+WEST MIDLANDS,14,40
+Birmingham,18,52
+Coventry,7,35
+Dudley,0,0
+"Herefordshire, County of",0,0
+Sandwell,29,67
+Shropshire,17,43
+Solihull,22,61
+Staffordshire,12,29
+Cannock Chase,12,29
+East Staffordshire,12,29
+Lichfield,12,29
+Newcastle-under-Lyme,12,29
+South Staffordshire,12,29
+Stafford,12,29
+Staffordshire Moorlands,12,29
+Tamworth,12,29
+Stoke-on-Trent,21,63
+Telford and Wrekin,39,91
+Walsall,11,29
+Warwickshire,8,27
+North Warwickshire,8,27
+Nuneaton and Bedworth,8,27
+Rugby,8,27
+Stratford-on-Avon,8,27
+Warwick,8,27
+Wolverhampton,13,31
+Worcestershire,8,21
+Bromsgrove,8,21
+Malvern Hills,8,21
+Redditch,8,21
+Worcester,8,21
+Wychavon,8,21
+Wyre Forest,8,21
+EAST OF ENGLAND,9,17
+Bedford,13,14
+Cambridgeshire,7,10
+Cambridge,7,10
+East Cambridgeshire,7,10
+Fenland,7,10
+Huntingdonshire,7,10
+South Cambridgeshire,7,10
+Central Bedfordshire,9,28
+Essex,6,11
+Basildon,6,11
+Braintree,6,11
+Brentwood,6,11
+Castle Point,6,11
+Chelmsford,6,11
+Colchester,6,11
+Epping Forest,6,11
+Harlow,6,11
+Maldon,6,11
+Rochford,6,11
+Tendring,6,11
+Uttlesford,6,11
+Hertfordshire,11,22
+Broxbourne,11,22
+Dacorum,11,22
+East Hertfordshire,11,22
+Hertsmere,11,22
+North Hertfordshire,11,22
+St. Albans,11,22
+Stevenage,11,22
+Three Rivers,11,22
+Watford,11,22
+Welwyn Hatfield,11,22
+Luton,28,42
+Norfolk,9,19
+Breckland,9,19
+Broadland,9,19
+Great Yarmouth,9,19
+King's Lynn and West Norfolk,9,19
+North Norfolk,9,19
+Norwich,9,19
+South Norfolk,9,19
+Peterborough,7,23
+Southend-on-Sea,8,15
+Suffolk,5,11
+Babergh,5,11
+Forest Heath,5,11
+Ipswich,5,11
+Mid Suffolk,5,11
+St. Edmundsbury,5,11
+Suffolk Coastal,5,11
+Waveney,5,11
+Thurrock,12,27
+LONDON ,15,40
+Barking and Dagenham,19,32
+Barnet,21,38
+Bexley,26,41
+Brent,24,46
+Bromley,11,36
+Camden,0,0
+Croydon,6,27
+Ealing,16,54
+Enfield,18,27
+Greenwich,19,53
+Hackney1,14,34
+Hammersmith and Fulham,17,54
+Haringey,17,37
+Harrow,20,32
+Havering,6,19
+Hillingdon,20,51
+Hounslow,22,39
+Islington,17,59
+Kensington and Chelsea,13,26
+Kingston upon Thames,0,0
+Lambeth,21,61
+Lewisham,24,88
+Merton,12,17
+Newham,5,24
+Redbridge,8,17
+Richmond upon Thames,7,17
+Southwark,26,98
+Sutton,17,28
+Tower Hamlets,7,21
+Waltham Forest,15,27
+Wandsworth,15,35
+Westminster,16,47
+SOUTH EAST ,10,26
+Bracknell Forest,11,5
+Brighton and Hove,9,27
+Buckinghamshire,6,14
+Aylesbury Vale,6,14
+Chiltern,6,14
+South Bucks,6,14
+Wycombe,6,14
+East Sussex,14,34
+Eastbourne,14,34
+Hastings,14,34
+Lewes,14,34
+Rother,14,34
+Wealden,14,34
+Hampshire,11,27
+Basingstoke and Deane,11,27
+East Hampshire,11,27
+Eastleigh,11,27
+Fareham,11,27
+Gosport,11,27
+Hart,11,27
+Havant,11,27
+New Forest,11,27
+Rushmoor,11,27
+Test Valley,11,27
+Winchester,11,27
+Isle of Wight,0,0
+Kent,12,24
+Ashford,12,24
+Canterbury,12,24
+Dartford,12,24
+Dover,12,24
+Gravesham,12,24
+Maidstone,12,24
+Sevenoaks,12,24
+Shepway,12,24
+Swale,12,24
+Thanet,12,24
+Tonbridge and Malling,12,24
+Tunbridge Wells,12,24
+Medway,14,38
+Milton Keynes,12,29
+Oxfordshire,6,25
+Cherwell,6,25
+Oxford,6,25
+South Oxfordshire,6,25
+Vale of White Horse,6,25
+West Oxfordshire,6,25
+Portsmouth,18,61
+Reading,9,28
+Slough,0,0
+Southampton,11,46
+Surrey,12,19
+Elmbridge,12,19
+Epsom and Ewell,12,19
+Guildford,12,19
+Mole Valley,12,19
+Reigate and Banstead,12,19
+Runnymede,12,19
+Spelthorne,12,19
+Surrey Heath,12,19
+Tandridge,12,19
+Waverley,12,19
+Woking,12,19
+West Berkshire,11,23
+West Sussex,7,25
+Adur,7,25
+Arun,7,25
+Chichester,7,25
+Crawley,7,25
+Horsham,7,25
+Mid Sussex,7,25
+Worthing,7,25
+Windsor and Maidenhead,0,0
+Wokingham,10,22
+SOUTH WEST ,8,23
+Bath and North East Somerset,8,15
+Bournemouth,14,19
+"Bristol, City of",8,25
+Cornwall1,14,45
+Devon,8,23
+East Devon,8,23
+Exeter,8,23
+Mid Devon,8,23
+North Devon,8,23
+South Hams,8,23
+Teignbridge,8,23
+Torridge,8,23
+West Devon,8,23
+Dorset,3,17
+Christchurch,3,17
+East Dorset,3,17
+North Dorset,3,17
+Purbeck,3,17
+West Dorset,3,17
+Weymouth and Portland,3,17
+Gloucestershire,4,18
+Cheltenham,4,18
+Cotswold,4,18
+Forest of Dean,4,18
+Gloucester,4,18
+Stroud,4,18
+Tewkesbury,4,18
+North Somerset,0,0
+Plymouth,9,44
+Poole,15,20
+Somerset,12,24
+Mendip,12,24
+Sedgemoor,12,24
+South Somerset,12,24
+Taunton Deane,12,24
+West Somerset,12,24
+South Gloucestershire,8,13
+Swindon,0,0
+Torbay,11,11
+Wiltshire,7,13
