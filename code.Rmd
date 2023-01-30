@@ -1,0 +1,104 @@
+
+setwd("C:/Users/cy/Desktop/GIS)")
+show_data<-read.csv("GIS_data.csv")
+show_data$obess<-show_data$male+show_data$female
+
+#entropy weight method
+library(forecast)
+min.max.norm <- function(x){
+  (x-min(x))/(max(x)-min(x))
+}
+
+max.min.norm <- function(x){
+  (max(x)-x)/(max(x)-min(x))
+}
+
+sourui_1 <- min.max.norm(show_data$total_weekly_income)  
+# Positive index
+sourui_2 <- max.min.norm(show_data$obess)   
+# Negative index
+
+sourui_t <- cbind(sourui_1,sourui_2)
+
+first1 <- function(data)
+{
+  x <- c(data)
+  for(i in 1:length(data))
+    x[i] = data[i]/sum(data[])
+  return(x)
+}
+dataframe <- apply(sourui_t,2,first1)
+
+first2 <- function(data)
+{
+  x <- c(data)
+  for(i in 1:length(data)){
+    if(data[i] == 0){
+      x[i] = 0
+    }else{
+      x[i] = data[i] * log(data[i])
+    }
+  }
+  return(x)
+}
+dataframe1 <- apply(dataframe,2,first2)
+
+k <- 1/log(length(dataframe1[,1]))
+d <- -k * colSums(dataframe1)
+
+d<-1-d
+w<-d/sum(d)
+w
+show_data$score<-show_data$total_weekly_income*0.94865878+show_data$obess*0.05134122
+show_data$score
+hist(show_data$score)
+
+#Geographical density map
+
+library(rgdal)
+library(ggplot2)
+library(maptools)
+library(mapproj)
+library(ggsn)
+library(sf)
+shp_data <- sf::st_read("./ENG_adm/gadm41_GBR_3.shp")
+
+#install.packages("here")
+library(here)
+st_layers("gadm41_GBR.gpkg")
+Ausoutline <- st_read("gadm41_GBR.gpkg",layer='ADM_ADM_2')
+plot(Ausoutline$geom)
+
+Eng_map<-readShapePoly("C:/Users/cy/Desktop/GIS)/ENG_adm/gadm41_GBR_3.shp")
+plot(Eng_map)
+ggplot(Eng_map,aes(x=long,y=lat,group=group)) +
+geom_polygon(fill="white",colour="grey") +
+coord_map("polyconic")
+
+x<-Eng_map@data
+xs<-data.frame(x,id=seq(0:405)-1)
+Eng_map1<-fortify(Eng_map)
+
+library(plyr)
+Eng_map_data<-join(Eng_map1,xs,type="full")
+
+unique(x$NAME_3)
+x$NAME_3
+show_data<-show_data[,-c(2:5)]
+
+colnames(show_data)[1]<-"NAME_3"
+
+Eng_data<-join(Eng_map_data,show_data,type="full")
+
+ggplot(Eng_data, aes(x = long, y = lat, group = group, fill =score)) +
+geom_polygon(colour="grey") +scale_fill_gradient(low="white",high="steelblue") +coord_map("polyconic")+labs(title="Score Distribution Map")+theme(plot.title = element_text(color = "black",size = 9,hjust = 0.5))
+
+
+```
+
+## Including Plots
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
